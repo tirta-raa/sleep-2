@@ -9,10 +9,24 @@ class ImageCard extends StatelessWidget {
     return Container(
       child: Column(
         children: <Widget>[
-          Image.asset(
-            image.imageUrl,
+          Container(
             width: 177,
             height: 123,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.vertical(
+                bottom: Radius.circular(25),
+                top: Radius.circular(25),
+              ),
+
+              image: DecorationImage(
+                  image: AssetImage(
+                    image.imageUrl,
+                  ),
+                  fit: BoxFit.cover),
+
+              // width: 177,
+              // height: 123,
+            ),
           ),
           SizedBox(
             height: 12,

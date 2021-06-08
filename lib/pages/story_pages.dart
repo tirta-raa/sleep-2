@@ -52,6 +52,34 @@ class StoryPages extends StatelessWidget {
                 ],
               ),
             ),
+            Container(
+              margin: EdgeInsets.only(
+                top: 348,
+                bottom: 33,
+              ),
+              width: 374,
+              height: 63,
+              child: RaisedButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => HomePage(),
+                    ),
+                  );
+                },
+                color: purpleColor,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(17),
+                ),
+                child: Text(
+                  'Read Another Story',
+                  style: buttonTextStyle.copyWith(
+                    fontSize: 18,
+                  ),
+                ),
+              ),
+            ),
           ],
         ),
       ),

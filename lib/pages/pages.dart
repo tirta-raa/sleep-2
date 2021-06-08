@@ -4,6 +4,6 @@ import 'package:sleep/widgets/widgets.dart';
 import 'package:sleep/models/models.dart';
 
 part 'home.dart';
-part 'story_list.dart';
+
 part 'story_pages.dart';
 part 'splash.dart';
