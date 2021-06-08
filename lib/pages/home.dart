@@ -125,10 +125,11 @@ class HomePage extends StatelessWidget {
                             height: 5,
                           ),
                           Text(
-                            'Non-stop 8- hour mixes of our\n most popular sleep audio',
+                            'Cerita pendek dan\nmenghibur',
                             style: whiteTextStyle.copyWith(
                               fontSize: 16,
                             ),
+                            textAlign: TextAlign.center,
                           ),
                           SizedBox(
                             height: 22,
@@ -141,7 +142,7 @@ class HomePage extends StatelessWidget {
                                 Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                    builder: (context) => HomePage(),
+                                    builder: (context) => StoryPages(),
                                   ),
                                 );
                               },
@@ -182,39 +183,69 @@ class HomePage extends StatelessWidget {
                           child: ImageCard(
                             ButtonIcon(
                               id: 1,
-                              imageUrl: 'assets/moon1.png',
-                              name: 'Night Sleep',
+                              imageUrl: 'assets/kancil2.jpeg',
+                              name: 'Kancil & Ketimun',
                             ),
                           ),
                         ),
                         SizedBox(
                           height: 39,
                         ),
-                        ImageCard(
-                          ButtonIcon(
-                            id: 2,
-                            imageUrl: 'assets/moon2.png',
-                            name: 'Night Sleep',
+                        InkWell(
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => StoryPages(),
+                              ),
+                            );
+                          },
+                          child: ImageCard(
+                            ButtonIcon(
+                              id: 2,
+                              imageUrl: 'assets/kancil3.jpeg',
+                              name: 'Kancil & Harimau',
+                            ),
                           ),
                         ),
                         SizedBox(
                           height: 39,
                         ),
-                        ImageCard(
-                          ButtonIcon(
-                            id: 3,
-                            imageUrl: 'assets/moon3.png',
-                            name: 'Night Sleep',
+                        InkWell(
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => StoryPages(),
+                              ),
+                            );
+                          },
+                          child: ImageCard(
+                            ButtonIcon(
+                              id: 3,
+                              imageUrl: 'assets/kancil1.jpeg',
+                              name: 'Kancil & Buaya',
+                            ),
                           ),
                         ),
                         SizedBox(
                           height: 39,
                         ),
-                        ImageCard(
-                          ButtonIcon(
-                            id: 4,
-                            imageUrl: 'assets/moon4.png',
-                            name: 'Night Sleep',
+                        InkWell(
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => StoryPages(),
+                              ),
+                            );
+                          },
+                          child: ImageCard(
+                            ButtonIcon(
+                              id: 4,
+                              imageUrl: 'assets/moon4.png',
+                              name: 'Night Sleep',
+                            ),
                           ),
                         ),
                       ],
@@ -224,41 +255,81 @@ class HomePage extends StatelessWidget {
                     ),
                     Column(
                       children: <Widget>[
-                        ImageCard(
-                          ButtonIcon(
-                            id: 5,
-                            imageUrl: 'assets/moon4.png',
-                            name: 'Night Sleep',
+                        InkWell(
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => StoryPages(),
+                              ),
+                            );
+                          },
+                          child: ImageCard(
+                            ButtonIcon(
+                              id: 5,
+                              imageUrl: 'assets/moon3.png',
+                              name: 'Night Sleep',
+                            ),
                           ),
                         ),
                         SizedBox(
                           height: 39,
                         ),
-                        ImageCard(
-                          ButtonIcon(
-                            id: 6,
-                            imageUrl: 'assets/moon1.png',
-                            name: 'Night Sleep',
+                        InkWell(
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => StoryPages(),
+                              ),
+                            );
+                          },
+                          child: ImageCard(
+                            ButtonIcon(
+                              id: 6,
+                              imageUrl: 'assets/kancil2.jpeg',
+                              name: 'Night Sleep',
+                            ),
                           ),
                         ),
                         SizedBox(
                           height: 39,
                         ),
-                        ImageCard(
-                          ButtonIcon(
-                            id: 7,
-                            imageUrl: 'assets/moon2.png',
-                            name: 'Night Sleep',
+                        InkWell(
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => StoryPages(),
+                              ),
+                            );
+                          },
+                          child: ImageCard(
+                            ButtonIcon(
+                              id: 7,
+                              imageUrl: 'assets/moon1.png',
+                              name: 'Night Sleep',
+                            ),
                           ),
                         ),
                         SizedBox(
                           height: 39,
                         ),
-                        ImageCard(
-                          ButtonIcon(
-                            id: 8,
-                            imageUrl: 'assets/moon3.png',
-                            name: 'Night Sleep',
+                        InkWell(
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => StoryPages(),
+                              ),
+                            );
+                          },
+                          child: ImageCard(
+                            ButtonIcon(
+                              id: 8,
+                              imageUrl: 'assets/moon3.png',
+                              name: 'Night Sleep',
+                            ),
                           ),
                         ),
                       ],

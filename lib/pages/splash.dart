@@ -23,7 +23,7 @@ class SpalsPage extends StatelessWidget {
                 Container(
                   margin: EdgeInsets.only(bottom: 69),
                   child: Text(
-                    'Explore the new king of sleep. It uses sound\nand vesualization to create perfect conditions\nfor refreshing sleep.',
+                    'Selamat datang di Sleep\nsebuah cerita rakyat untuk\ndongen si kecil',
                     textAlign: TextAlign.center,
                     style: whiteTextStyle.copyWith(
                       fontSize: 16,
