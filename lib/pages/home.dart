@@ -14,6 +14,7 @@ class HomePage extends StatelessWidget {
             child: ListView(
               children: <Widget>[
                 Center(
+                  // *Note : Title
                   child: Container(
                     margin: EdgeInsets.only(top: 50, bottom: 15),
                     child: Text(
@@ -36,6 +37,9 @@ class HomePage extends StatelessWidget {
                     ),
                   ),
                 ),
+                // * Title end
+
+                // *Icon Button
                 Container(
                   height: 100,
                   child: Row(
@@ -93,9 +97,13 @@ class HomePage extends StatelessWidget {
                     ],
                   ),
                 ),
+                // *icon button end
+
                 SizedBox(
                   height: 30,
                 ),
+
+                // *image center
                 Stack(
                   children: <Widget>[
                     Center(
@@ -163,12 +171,17 @@ class HomePage extends StatelessWidget {
                     ),
                   ],
                 ),
+
+                // *image center end
                 SizedBox(
                   height: 21,
                 ),
+
+                // *story images
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
+                    // *story image left
                     Column(
                       children: <Widget>[
                         InkWell(
@@ -250,9 +263,11 @@ class HomePage extends StatelessWidget {
                         ),
                       ],
                     ),
+                    // *story image left end
                     SizedBox(
                       width: 20,
                     ),
+                    // *story image right
                     Column(
                       children: <Widget>[
                         InkWell(
@@ -334,8 +349,10 @@ class HomePage extends StatelessWidget {
                         ),
                       ],
                     )
+                    // *story right end
                   ],
                 ),
+                // *story image end
               ],
             ),
           ),

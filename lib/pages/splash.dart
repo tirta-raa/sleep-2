@@ -11,6 +11,7 @@ class SpalsPage extends StatelessWidget {
           body: Center(
             child: Column(
               children: <Widget>[
+                // *Note : Title
                 Container(
                   margin: EdgeInsets.only(top: 155, bottom: 15),
                   child: Text(
@@ -30,6 +31,9 @@ class SpalsPage extends StatelessWidget {
                     ),
                   ),
                 ),
+                // * Title End
+
+                // *Note: Bird Image
                 Row(
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
@@ -47,6 +51,9 @@ class SpalsPage extends StatelessWidget {
                     ),
                   ],
                 ),
+                // *Bird Image End
+
+                // *Note : Button Get Started
                 Container(
                   width: 374,
                   height: 63,
@@ -71,6 +78,7 @@ class SpalsPage extends StatelessWidget {
                     ),
                   ),
                 ),
+                // *Button End
               ],
             ),
           ),

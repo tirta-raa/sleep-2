@@ -17,15 +17,11 @@ class ImageCard extends StatelessWidget {
                 bottom: Radius.circular(25),
                 top: Radius.circular(25),
               ),
-
               image: DecorationImage(
                   image: AssetImage(
                     image.imageUrl,
                   ),
                   fit: BoxFit.cover),
-
-              // width: 177,
-              // height: 123,
             ),
           ),
           SizedBox(

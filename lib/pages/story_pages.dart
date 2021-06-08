@@ -13,6 +13,7 @@ class StoryPages extends StatelessWidget {
         child: ListView(
           children: <Widget>[
             Container(
+              // *Header image
               width: MediaQuery.of(context).size.width,
               height: 290,
               decoration: BoxDecoration(
@@ -26,6 +27,7 @@ class StoryPages extends StatelessWidget {
                     fit: BoxFit.cover),
               ),
             ),
+            // *Header Image end
             SizedBox(
               height: 30,
             ),
@@ -35,14 +37,17 @@ class StoryPages extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Text(
+                    // *title story
                     'Kancil & Ketimun',
                     style: titleTextStyle.copyWith(
                       fontSize: 30,
                     ),
                   ),
+                  // *end titile story
                   SizedBox(
                     height: 15,
                   ),
+                  // *main story
                   Text(
                     'Hutan kini sedang dilanda kemarau panjang. Akibatnya, makanan di sana habis. Sungai pun mengering. Mau tidak mau, binatang di hutan harus keluar hutan untuk mencari makanan. Tak terkecuali Kancil. Ia kini kebingungan mencari makanan.',
                     style: whiteTextStyle.copyWith(
@@ -202,36 +207,12 @@ class StoryPages extends StatelessWidget {
                       fontSize: 16,
                     ),
                   ),
-                  SizedBox(
-                    height: 15,
-                  ),
-                  Text(
-                    ' ',
-                    style: whiteTextStyle.copyWith(
-                      fontSize: 16,
-                    ),
-                  ),
-                  SizedBox(
-                    height: 15,
-                  ),
-                  Text(
-                    ' ',
-                    style: whiteTextStyle.copyWith(
-                      fontSize: 16,
-                    ),
-                  ),
-                  SizedBox(
-                    height: 15,
-                  ),
-                  Text(
-                    ' ',
-                    style: whiteTextStyle.copyWith(
-                      fontSize: 16,
-                    ),
-                  ),
+                  // *end main story
                 ],
               ),
             ),
+
+            // *button another story
             Container(
               margin: EdgeInsets.only(
                 top: 40,
@@ -260,6 +241,7 @@ class StoryPages extends StatelessWidget {
                 ),
               ),
             ),
+            // *end button story
           ],
         ),
       ),
