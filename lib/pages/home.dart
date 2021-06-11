@@ -27,7 +27,7 @@ class HomePage extends StatelessWidget {
                 ),
                 Center(
                   child: Container(
-                    margin: EdgeInsets.only(bottom: 69),
+                    margin: EdgeInsets.only(bottom: 30),
                     child: Text(
                       'Soothing bedtime stories to help you fall\ninto a deep and natural sleep',
                       textAlign: TextAlign.center,
@@ -38,7 +38,10 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
                 // * Title end
-
+                SearchBar(),
+                SizedBox(
+                  height: 30,
+                ),
                 // *Icon Button
                 Container(
                   height: 100,
